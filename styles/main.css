@@ -1,0 +1,181 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* Header */
+header{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:15px;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+/* Hero */
+.hero{
+    background:url("https://picsum.photos/1200/400") center/cover;
+    height:250px;
+    position:relative;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.5);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Flexbox Layout */
+.container{
+    display:flex;
+    gap:20px;
+    padding:20px;
+    flex-wrap:wrap;
+}
+
+.form-section,
+.map-section{
+    flex:1;
+    min-width:300px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px gray;
+}
+
+/* Form */
+input,
+textarea,
+button{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+.gender,
+.skills{
+    display:flex;
+    gap:15px;
+    margin:10px 0;
+}
+
+button{
+    background:#0d6efd;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#084298;
+}
+
+/* ID Selector */
+#submitBtn{
+    font-weight:bold;
+}
+
+/* Attribute Selector */
+input[type="text"],
+input[type="email"]{
+    border:2px solid #0d6efd;
+}
+
+/* Focus Selector */
+input:focus,
+textarea:focus{
+    outline:none;
+    border:2px solid green;
+}
+
+/* iframe */
+iframe{
+    width:100%;
+    height:300px;
+    border:none;
+}
+
+/* Media Section */
+.media{
+    display:flex;
+    gap:20px;
+    padding:20px;
+    flex-wrap:wrap;
+}
+
+.media div{
+    flex:1;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+/* Grid */
+.cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+    padding:20px;
+}
+
+.card{
+    background:#0d6efd;
+    color:white;
+    padding:30px;
+    text-align:center;
+    border-radius:10px;
+}
+
+/* Fixed Button */
+#topBtn{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border:none;
+    background:red;
+    color:white;
+    font-size:20px;
+}
+
+/* Footer */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+.container{
+    flex-direction:column;
+}
+
+.media{
+    flex-direction:column;
+}
+
+.cards{
+    grid-template-columns:1fr;
+}
+
+}

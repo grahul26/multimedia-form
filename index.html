@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Multimedia Form</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+
+    <header>
+        <h2>Multimedia Form</h2>
+    </header>
+
+   
+    <section class="hero">
+        <div class="overlay">
+            <h1>Responsive Multimedia Form Page</h1>
+            <p>HTML | CSS | JavaScript Practice Project</p>
+        </div>
+    </section>
+
+    
+    <div class="container">
+
+        
+        <section class="form-section">
+            <h2>Registration Form</h2>
+
+            <form id="registrationForm">
+
+                <!-- <label for="text">Name:</label> -->
+
+                <input type="text" id="name"
+                placeholder="Enter Name" required>
+
+                <input type="email" id="email"
+                placeholder="Enter Email" required>
+
+                <div class="gender">
+
+                    <label>
+                        <input type="radio"
+                        name="gender"
+                        value="Male" required>
+                        Male
+                    </label>
+
+                    <label>
+                        <input type="radio"
+                        name="gender"
+                        value="Female">
+                        Female
+                    </label>
+
+                </div>
+
+                <div class="skills">
+
+                    <label >
+                        <input type="checkbox" value="HTML" >
+                        HTML
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="CSS">
+                        CSS
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="JavaScript">
+                        JavaScript
+                    </label>
+
+                </div>
+
+                <textarea id="message"
+                placeholder="About Yourself"></textarea>
+
+                <button id="submitBtn">
+                    Submit
+                </button>
+
+            </form>
+
+        </section>
+
+        <!-- iframe -->
+
+        <section class="map-section">
+
+            <h2>Location</h2>
+
+            <iframe
+            id="map"
+            src="https://maps.google.com/maps?q=hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed">
+            </iframe>
+
+        </section>
+
+    </div>
+
+    <!-- Audio Video -->
+
+    <section class="media">
+
+        <div>
+
+            <h2>Audio</h2>
+
+            <audio id="audio" controls>
+
+                <source
+                src="assets/audio/sample.mp3"
+                type="audio/mpeg">
+
+                Audio not supported
+
+            </audio>
+
+        </div>
+
+        <div>
+
+            <h2>Video</h2>
+
+            <video
+            id="video"
+            controls
+            width="350">
+
+                <source
+                src="assets/video/sample.mp4"
+                type="video/mp4">
+
+                Video not supported
+
+            </video>
+
+        </div>
+
+    </section>
+
+    <!-- Grid -->
+
+    <section class="cards">
+
+        <div class="card">Forms</div>
+        <div class="card">iFrame</div>
+        <div class="card">Audio</div>
+        <div class="card">Video</div>
+        <div class="card">Flexbox</div>
+        <div class="card">Grid</div>
+
+    </section>
+
+    <!-- Fixed Button -->
+
+    <button id="topBtn">↑</button>
+
+    <footer>
+
+        <p>© 2026 G Rahul</p>
+
+    </footer>
+
+<script src="scripts/app.js"></script>
+
+</body>
+</html>
+
+<!-- display:flow-root -->
