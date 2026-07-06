@@ -1,234 +1,80 @@
-# 📌 Responsive Multimedia Form Page
-
-A responsive web application built using **HTML5, CSS3, and JavaScript** to demonstrate multimedia integration, form validation, responsive layouts, and modern CSS concepts.
-
----
+# Responsive Multimedia Form Page
 
 ## 📖 Project Overview
 
-This project was developed as **Day 1** of the Java Full Stack 20-Day Task Challenge.
+This is a responsive web page developed using **HTML5, CSS3, and JavaScript** as part of the Java Full Stack 20-Day Challenge.
 
-It demonstrates the implementation of:
+The project demonstrates HTML forms, multimedia elements, CSS layout techniques, and basic JavaScript event handling.
 
-- HTML Forms
-- iFrame Integration
-- Audio & Video Tags
+---
+
+## 🚀 Features
+
+- Responsive Registration Form
+- HTML5 Form Validation
+- Google Map using iframe
+- Audio & Video Player
 - CSS Positioning
 - CSS Selectors
 - z-index
-- Flexbox
-- CSS Grid
-- Responsive Web Design
-- JavaScript DOM Manipulation
+- Flexbox Layout
+- CSS Grid Layout
+- Responsive Design
 
 ---
 
-# 🚀 Features
-
-### ✅ Responsive Registration Form
-
-- Name
-- Email
-- Phone Number
-- Gender
-- Skills
-- Country
-- About Yourself
-- HTML5 Validation
-
----
-
-### ✅ Google Map Integration
-
-Embedded Google Maps using the `<iframe>` element.
-
----
-
-### ✅ Audio Player
-
-Supports:
-
-- Play
-- Pause
-- Controls
-
----
-
-### ✅ Video Player
-
-Supports:
-
-- Play
-- Pause
-- Poster Image
-- Controls
-
----
-
-### ✅ CSS Concepts
-
-- Element Selector
-- Class Selector
-- ID Selector
-- Attribute Selector
-- Hover Selector
-- Focus Selector
-
----
-
-### ✅ CSS Positioning
-
-- Static
-- Relative
-- Absolute
-- Sticky
-- Fixed
-
----
-
-### ✅ Responsive Layout
-
-Built using:
-
-- Flexbox
-- CSS Grid
-- Media Queries
-
-Supports:
-
-- Desktop
-- Tablet
-- Mobile
-
----
-
-### ✅ JavaScript
-
-Implemented:
-
-- Form Validation
-- Event Listeners
-- Console Logging
-- Audio Events
-- Video Events
-- Window Resize Events
-- Smooth Scroll
-
----
-
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript (ES6)
+- JavaScript
 
 ---
 
-# 📁 Folder Structure
+## 📂 Folder Structure
 
 ```text
 day-1-multimedia-form
 │
 ├── index.html
 ├── README.md
-│
-├── styles
+├── styles/
 │   └── main.css
-│
-├── scripts
+├── scripts/
 │   └── app.js
-│
-└── assets
-    ├── audio
-    ├── video
-    └── images
+└── assets/
+    ├── audio/
+    ├── video/
+    └── images/
 ```
 
 ---
 
-# ▶️ How to Run
+## ▶️ How to Run
 
-1. Download the project.
-
+1. Download or clone the repository.
 2. Open the project in VS Code.
-
-3. Install the Live Server extension.
-
-4. Right-click **index.html**
-
-5. Click
-
-```
-Open with Live Server
-```
+3. Open `index.html` using Live Server.
 
 ---
 
-# 📸 Output
+## 📚 Concepts Covered
 
-## Home Page
-
-(Add Screenshot Here)
-
----
-
-## Registration Form
-
-(Add Screenshot Here)
-
----
-
-## Audio & Video Section
-
-(Add Screenshot Here)
-
----
-
-## Responsive Mobile View
-
-(Add Screenshot Here)
-
----
-
-# 📚 Learning Outcomes
-
-After completing this project I learned:
-
-- HTML Form Validation
-- Responsive Design
-- Flexbox
-- CSS Grid
+- Forms
+- iframe
+- Audio & Video
 - CSS Positioning
-- JavaScript DOM
-- Event Handling
-- Media Elements
-- Google Map Integration
+- CSS Selectors
+- z-index
+- Flexbox
+- Grid
+- JavaScript Events
+- Responsive Design
 
 ---
 
-# 🔮 Future Improvements
-
-- Store form data in Local Storage
-- Connect with Backend API
-- Add Login Page
-- Dark Mode
-- Database Integration
-- Authentication
-
----
-
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **G Rahul**
 
-Java Full Stack Developer
-
-GitHub: https://github.com/YOUR_GITHUB_USERNAME
-
----
-
-# ⭐ Thank You
-
-Thank you for visiting this repository.
-
-If you like this project, don't forget to ⭐ the repository.
+GitHub: https://github.com/grahul26
